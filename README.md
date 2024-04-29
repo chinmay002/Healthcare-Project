@@ -1,9 +1,9 @@
+## Heathcare Cost Reduction
 
-
-## Goal:
+# Goal:
 * Analyze the healthcare data with 7.5k+ rows and 14 features and predict which patients  will be spending more.
 * Provide Recommendation to Heath Management Organization on how they can reduce the total health costs.
-## Overview:
+# Overview:
 * **Dataset Description** : The project involves analyzing a dataset containing various personal attributes, such as smoking habits, exercise routines, and living locations, with a total of 13 attributes per individual.
 * **Focus on Cost Analysis** : The primary focus of the project is to determine what factors influence a person's healthcare expenditure, classifying them as 
  "expensive" or "not-expensive" in terms of healthcare spending.
@@ -14,7 +14,7 @@
 * **Client-Focused** : The project's ultimate goal is to assist the Health Management Organization in making informed decisions to enhance their healthcare cost management and planning strategies.
 
 
-## Exploratory Data Analysis and Preprocessing.
+# Exploratory Data Analysis and Preprocessing.
 * Dealing with missing data points: we removed 158 missing data points in bmi and hypertension variables.
 * Inspecting the data set: There are 7,502 examples with 14 features related to personal health information (cost, age, bmi, number of children, and etc.).
 * Performing binning and transformation on variables 
@@ -58,7 +58,7 @@ From below bar plot we can say that people who are Active has Lower health cost 
 ![location_vs_medain](https://github.com/chinmay002/chinmay002.github.io/assets/60249099/575304ce-ea80-4d8d-bf33-62721f491e34)
 
 
-## Data Modelling:
+# Data Modelling:
 * The information obtained from the dataset has been accurately modeled using a few different approaches. These models provide a comprehensible representation of the underlying data sets' reality. Specifically, the following models have been used:
 
 #### Linear Regression :
